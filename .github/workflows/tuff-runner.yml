@@ -26,17 +26,16 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Clone Private Repo & Install Packages
-        env:
-          RAW_TOKEN: ${{ secrets.PAT_TOKEN }}
+      - name: Clone Repository & Install Packages
         run: |
-          CLEAN_TOKEN=$(echo "$RAW_TOKEN" | tr -d '[:space:]' | sed 's/^Github_pat_/github_pat_/')
-          git clone "https://ere4n:${CLEAN_TOKEN}@github.com/ere4n/asituff.git"
+          git clone https://github.com/ere4n/asituff.git
           pip install --upgrade pip
           pip install python-telegram-bot requests
           if [ -f asituff/requirements.txt ]; then pip install -r asituff/requirements.txt; fi
 
       - name: Run Bot 24/7
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
         run: |
           cd asituff
           python3 -u "dark tuff.py"
