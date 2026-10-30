@@ -51,48 +51,19 @@ UNAUTHORIZED_MESSAGE = "𝐁ɪɴᴀ 𝐃𝐀𝐑𝐊 ❄️ 𝐁ᴀᴀᴘ 𝐊 �
 
 RAID_TEXTS = ["#𝐃𝐀𝐑𝐊  !!  🦢 𝐊ᴏ 𝐁ᴀᴀᴘ 𝐁ᴀɴᴀ 𝐋ᴇ 𝐑ᴀɴᴅɪ 𝐊ᴇ  𝐁ᴀᴄʜᴇ", "𝐌ᴜᴊʜِه 𝐏ᴀᴘᴀ  𝐁ᴏʟ 𝐑ᴀɴᴅɪ 🤣", "𝐓ᴇʀɪ 𝐌ᴀᴀ 𝐂ʜᴜᴅᴡᴀ 𝐋ᴇ 𝐘ᴀʜᴀ 😀", "𝐑ʀ 𝐊ᴀʀ 𝐑ᴀɴᴅɪ 𝐊ᴇ 𝐁ᴀᴄʜᴇ 😃", "𝐌ᴇʀᴇ 𝐒ᴇ 𝐌ᴀᴀ 𝐂ʜ𝐮ᴅᴡᴀ 𝐋ᴇ 𝐒ʟɪᴅᴇ 𝐊ᴀʀ 𝐊ᴇ !!", "𝐘ᴀʜᴀ 𝐂ʜᴜⴷ 𝐑ᴀɴᴅɪ 𝐊ᴇ 𝐁ᴀᴄʜᴇ 😃", "𝐓ᴇʀɪ 𝐁ʜᴇɴ 𝐂ʜᴜᴅ 𝐊ᴇ 𝐌ᴀʀ 𝐆ʏɪ?", "𝐌ᴀᴀ 𝐂ʜ𝐝ᴡᴀ 𝐋ᴇ 𝐓𝐞𝐫ɪ 🤣", "𝑯𝒂𝒘𝒂𝒃𝒂𝒂𝒛𝒊 𝒌𝒂𝒓 𝒇𝒂𝒎𝒆 𝒎𝒊𝒍𝒆 𝒈𝒂!", "𝐓𝐦𝐤𝐜 𝐎𝐤", "𝐓𝐞𝐫𝐢 𝐦𝐚𝐚 150𝐫𝐬 𝐦𝐞 𝐝𝐞𝐭𝐢 𝐡𝐚𝐢 😃", "𝑺𝒍𝒊𝒅𝒆 𝒌𝒂𝒓 𝒎𝒂𝒅𝒓𝒄𝒉𝒐𝒅!", "𝑪𝒉𝒖𝒅 𝒐𝒏𝒍𝒊𝒏𝒆 𝒇𝒚𝒕𝒓!", "𝑩𝒉𝒂𝒘 𝒅𝒖 𝒓𝒓 𝒘𝒉𝒚 𝑹𝒂𝒏𝒅𝒊?", "𝑳𝒐𝒍 𝒂𝒊𝒔𝒆 𝒓𝒐𝒚𝒆 𝒈𝒂 😀", "𝑹𝒐 𝑹𝒐 𝑹𝒐 𝒕𝒆𝒓𝒊 𝒎𝒂𝒂 𝒕𝒐𝒉 𝒄𝒉𝒖𝒅 𝒌𝒊 𝒉𝒂𝒔𝒉 𝒓𝒉𝒊 😃", "𝐂𝐡𝐮𝐝 𝐠𝐚𝐫𝐞𝐞𝐛!", "𝐌𝐤𝐜 𝐧𝐨 𝐛𝐡𝐚𝐰 𝐭𝐚𝐭𝐭𝐞!", "𝐋𝐨𝐥 𝐜𝐡𝐮𝐝 𝐤𝐢 𝐫𝐨 𝐫𝐡𝐚 𝐚𝐛𝐡 𝐡𝐚𝐰𝐚𝐛𝐚𝐚𝐳 🤣", "𝐀𝐰𝐰 𝐑𝐚𝐧𝐝𝐢 𝐭𝐞𝐫𝐢 𝐦𝐚𝐚 𝐭𝐨𝐡 𝐜𝐡𝐮𝐝 𝐠𝐲𝐢!", "𝑩𝒐𝒉𝒐𝒕 𝒄𝒉𝒖𝒅𝒊 𝒕𝒉𝒊 𝑻𝒆𝒓𝒊 𝒎𝒂𝒂 𝒓𝒂𝒂𝒕 𝒌𝒐 𝒎𝒆𝒓𝒆 𝒔𝒆 😀", "𝐇ᴀsʏ ʜᴀsʏ 𝐂ʜ𝚞𝗱 ᴄʜ𝚞𝗱 𝐊ɪ 𝐓𝐞ʀɪ ᴍ𝒂ᴀ 𝐇ᴀsʏ 😄", "𝐍𝐡𝐢 𝐧𝐡𝐢 𝐧𝐡𝐢 𝐚𝐛𝐡 𝐭𝐨𝐡 𝐭𝐞𝐫𝐢 𝐦𝐚𝐚 𝐜h𝐮𝐝 𝐤𝐢 𝐫𝐚𝐡𝐞 𝐠𝐢 ! 😗", "𝐍𝐡𝐢 𝐧𝐡𝐢 𝐧𝐡𝐢 𝐚𝐛𝐡𝐢𝐣𝐞𝐞𝐭 𝐢𝐬𝐬 𝐭𝐚𝐭𝐭𝐞 𝐤𝐢 𝐦𝐚𝐚 𝐭𝐨𝐡 𝐜𝐡𝐮𝐝𝐢 𝐠𝐢 ! 🙂‍↔️", "𝐊𝐘𝐔 𝐅𝐘𝐓𝐑 𝐁𝐀𝐍 𝐊𝐈 𝐌𝐀𝐀 𝐂𝐇𝐔𝐃𝐖𝐀 𝐋𝐄 ? 😀", "𝐍𝐇𝐈 𝐍𝐇𝐈 𝐀𝐁𝐇 𝐊𝐔𝐂𝐇 𝐍𝐇𝐈 𝐇𝐎 𝐒𝐀𝐊𝐓𝐀 𝐓𝐄𝐑𝐈 𝐌𝐀𝐀 𝐊𝐈 𝐂𝐇𝐔𝐃𝐀𝐈 𝐊𝐈 𝐒𝐂𝐑𝐈𝐏𝐓 𝐑𝐄𝐀𝐃𝐘 𝐇𝐎 𝐆𝐘𝐈 𝐇𝐀𝐈 𝐀𝐁𝐇 𝐁𝐀𝐒 𝐓𝐄𝐑𝐈 𝐌𝐀𝐀 𝐂𝐇𝐔𝐃 𝐇𝐄 𝐒𝐀𝐊𝐓𝐈 𝐇𝐀𝐈 ! 😃", "𝐁𝐄𝐓𝐀 𝐘𝐀𝐀𝐃 𝐍𝐇𝐈 𝐀𝐀𝐑𝐀 𝐖𝐎𝐇 𝐊𝐎𝐍𝐒𝐀 𝐉𝐀𝐃𝐔 𝐓𝐇𝐀 𝐉𝐎 𝐔𝐒𝐒 𝐑𝐀𝐀𝐓 𝐓𝐄𝐑𝐈 𝐌𝐀𝐀 𝐊𝐈 𝐒𝐀𝐓𝐇 𝐊𝐈𝐘𝐀 𝐓𝐇𝐀 𝐉𝐎 𝐓𝐔 𝐀𝐀𝐘𝐀 𝐃𝐔𝐍𝐈𝐘𝐀 𝐌𝐄 🙂‍↔️", "𝐂𝐎𝐎𝐋 𝐁𝐀𝐍 𝐆𝐀𝐘𝐀 𝐁𝐄𝐓𝐀 𝐁𝐀𝐀𝐏 𝐊𝐈 𝐂𝐎𝐏𝐘 𝐇𝐀𝐀 𝐀𝐀𝐊𝐄𝐑 𝐁𝐄𝐓𝐀 𝐌𝐄𝐑𝐀 𝐇𝐀𝐈! 🥳", "𝐀𝐑𝐄 𝐂𝐇𝐔𝐃 𝐊𝐈 𝐁𝐇𝐀𝐆 𝐊𝐘𝐔 𝐑𝐇𝐈 𝐇𝐎 𝐑𝐀𝐍𝐃𝐈 𝐓𝐇𝐎𝐃𝐈 𝐆𝐀𝐍𝐃 𝐇𝐀𝐌 𝐒𝐄 𝐁𝐇𝐈 𝐌𝐀𝐀𝐑𝐖𝐀 𝐋𝐎 😁", "𝐇𝐀𝐌 𝐂𝐈𝐃 𝐒𝐄 𝐇𝐀𝐈 𝐓𝐔𝐌𝐀𝐑𝐄 𝐌𝐀𝐀 𝐊𝐈 𝐋𝐄𝐍𝐄 𝐀𝐀𝐘𝐄 𝐇𝐀𝐈 𝐁𝐀𝐃𝐄 𝐃𝐈𝐍𝐎 𝐁𝐀𝐀𝐃 😔", "𝐊𝐘𝐀 𝐇𝐔𝐀 𝐑𝐀𝐍𝐃𝐈 𝐓𝐇𝐎𝐃𝐈 𝐁𝐊𝐂 𝐇𝐀𝐌𝐍𝐄 𝐊𝐘𝐀 𝐊𝐀𝐑 𝐋𝐄 𝐓𝐔𝐌 𝐓𝐎𝐇 𝐑𝐎𝐍𝐄 𝐋𝐀𝐆 𝐆𝐘𝐀 🤗", "𝐑𝐀𝐍𝐃𝐈 𝐂𝐕𝐑 𝐊𝐀𝐑𝐍𝐀 𝐉𝐀𝐑𝐔𝐑𝐈 𝐇𝐀𝐈 𝐍𝐇𝐈 𝐓𝐎𝐇 𝐀𝐀𝐏 𝐊𝐈 𝐌𝐀𝐀 9 𝐌𝐎𝐍𝐓𝐇𝐒 𝐂𝐕𝐑 𝐍𝐇𝐈 𝐊𝐀𝐑 𝐏𝐀𝐘𝐄 𝐆𝐈 🤭", "𝐊𝐘𝐔 𝐑𝐄𝐄 𝐌𝐀𝐃𝐀𝐑𝐂𝐇𝐎𝐃 𝐘𝐀𝐇𝐀 𝐂𝐇𝐎𝐏 𝐊𝐈 𝐌𝐀𝐀 𝐂𝐇𝐔𝐃𝐖𝐀 𝐑𝐀𝐇𝐀 𝐇𝐀𝐈 𝐁𝐇𝐄𝐍𝐂𝐇𝐎𝐃 🙂‍↕️", "𝐌𝐄𝐈𝐍 𝐇𝐔 𝐀𝐊𝐄𝐋𝐀 𝐌𝐄𝐑𝐄 𝐏𝐀𝐒𝐒 𝐇𝐀𝐈 𝐊𝐀𝐋𝐀 𝐓𝐄𝐑𝐈 𝐌𝐀𝐀 𝐊𝐎 𝐏𝐈𝐋𝐄 𝐑𝐀𝐀𝐓 𝐃𝐈𝐍 𝐓𝐇𝐀𝐊𝐄𝐋𝐀 😄", "𝐀𝐀𝐉𝐀 𝐑𝐀𝐍𝐃𝐈 𝐅𝐘𝐓𝐑 𝐁𝐀𝐍𝐀𝐓𝐀 𝐇𝐔 𝐀𝐁𝐇𝐈𝐉𝐄𝐄𝐓 𝐈𝐒 𝐑𝐀𝐍ْد𝐈 𝐊𝐎 𝐅𝐘𝐓 𝐒𝐈𝐊𝐇𝐀𝐎 😃", "𝐀𝐀𝐉 𝐊𝐈 𝐓𝐀𝐉𝐀 𝐊𝐇𝐀𝐁𝐀𝐑 𝐈𝐒 𝐓𝐀𝐓𝐓𝐀 𝐊𝐈 𝐌𝐀𝐀  𝐂𝐇𝐔𝐃𝐄 𝐆𝐇𝐀𝐑 𝐆𝐇𝐀𝐑 ! 😀", "𝐓𝐄𝐑𝐈 𝐌𝐀𝐀 𝐂𝐇𝐔𝐃 𝐆𝐘𝐈 𝐓𝐎𝐇 𝐈𝐒𝐌𝐄 𝐁𝐇𝐈 𝐌𝐄𝐑𝐈 𝐆𝐀𝐋𝐓𝐈 ! 😙", "𝐀𝐑𝐄𝐄 𝐁𝐄𝐓𝐀 𝐓𝐔 𝐓𝐎𝐇 𝐁𝐊𝐂 𝐁𝐊𝐂 𝐌𝐄 𝐇𝐄 𝐂𝐇𝐔𝐃 𝐆𝐘𝐀??"]
 
-FLAGNC_EMOJIS = [
-    "🇮🇳", "🇵🇰", "🇦🇫", "🇺🇸", "🇬🇧", "🇨🇦", "🇦🇺", "🇩🇪", "🇫🇷", "🇮🇹", "🇯🇵", "🇰🇷", "🇧🇷", "🇷🇺", "🇿🇦", "🇲🇽", "🇪🇸", "🇸🇦", "🇹🇷", "🇮🇩"
-]
-
-HEARTNC_EMOJIS = [
-    "❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "🤎", "💔", "❤️‍🔥", "❤️‍🩹", "❣️", "💕", "💞", "💓", "💗", "💖", "💘", "💝"
-]
-
-AESTHETICNC_EMOJIS = [
-    "🕊️", "🤍", "🌸", "🎀", "🦢", "🐚", "🩰", "☁️", "✨", "🧊", "🎐", "💎", "🦋", "🍃", "🧸"
-]
-
-VEGETABLENC_EMOJIS = [
-    "🥬", "🥦", "🌽", "🥕", "🫑", "🥒", "🍆", "🍅", "🥔", "🧄", "🧅", "🥜", "🫒"
-]
-
-ANIMALNC_EMOJIS = [
-    "🐶", "🐱", "🐭", "🐹", "🐰", "🦊", "🐻", "🐼", "🐨", "🐯", "🦁", "🐮", "🐷", "🐸", "🐵", "🐒", "🐔", "🐧", "🐦", "🐤"
-]
-
+FLAGNC_EMOJIS = ["🇮🇳", "🇵🇰", "🇦🇫", "🇺🇸", "🇬🇧", "🇨🇦", "🇦🇺", "🇩🇪", "🇫🇷", "🇮🇹", "🇯🇵", "🇰🇷", "🇧🇷", "🇷🇺", "🇿🇦", "🇲🇽", "🇪🇸", "🇸🇦", "🇹🇷", "🇮🇩"]
+HEARTNC_EMOJIS = ["❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "🤎", "💔", "❤️‍🔥", "❤️‍🩹", "❣️", "💕", "💞", "💓", "💗", "💖", "💘", "💝"]
+AESTHETICNC_EMOJIS = ["🕊️", "🤍", "🌸", "🎀", "🦢", "🐚", "🩰", "☁️", "✨", "🧊", "🎐", "💎", "🦋", "🍃", "🧸"]
+VEGETABLENC_EMOJIS = ["🥬", "🥦", "🌽", "🥕", "🫑", "🥒", "🍆", "🍅", "🥔", "🧄", "🧅", "🥜", "🫒"]
+ANIMALNC_EMOJIS = ["🐶", "🐱", "🐭", "🐹", "🐰", "🦊", "🐻", "🐼", "🐨", "🐯", "🦁", "🐮", "🐷", "🐸", "🐵", "🐒", "🐔", "🐧", "🐦", "🐤"]
 EXONC_TEXTS = ["💀", "🔥", "⚡", "🎯", "💥", "👑", "🔱", "💫", "⭐", "🌟", "✨", "🎀", "❤️", "🖤"]
-
-VOICE_CHARACTERS = {
-    1: {"name": "Urokodaki", "voice_id": "VR6AewLTigWG4xSOukaG"},
-    2: {"name": "Kanae", "voice_id": "EXAVITQu4vr4xnSDxMaL"},
-    3: {"name": "Uppermoon", "voice_id": "AZnzlk1XvdvUeBnXmlld"},
-    4: {"name": "Tanjiro", "voice_id": "VR6AewLTigWG4xSOukaG"},
-    5: {"name": "Nezuko", "voice_id": "EXAVITQu4vr4xnSDxMaL"},
-    6: {"name": "Zenitsu", "voice_id": "AZnzlk1XvdvUeBnXmlld"},
-    7: {"name": "Inosuke", "voice_id": "VR6AewLTigWG4xSOukaG"},
-    8: {"name": "Muzan", "voice_id": "AZnzlk1XvdvUeBnXmlld"},
-    9: {"name": "Shinobu", "voice_id": "EXAVITQu4vr4xnSDxMaL"},
-    10: {"name": "Giyu", "voice_id": "VR6AewLTigWG4xSOukaG"}
-}
-tempest_API_KEY = "sk_e326b337242b09b451e8f18041fd0a7149cc895648e36538"
 
 ALL_NC_TEXT = "𝐃𝐀𝐑𝐊  "
 ALL_SPAM_TEXT = "𝐓𝐄𝐑𝐈 𝐌𝐀𝐀 𝐊𝐈 𝐂𝐇𝐔𝐓 𝐌𝐄 𝐏𝐀𝐈𝐑 𝐌𝐄𝐑𝐀 🔥⚡"
 
-SPAM_TEMPLATE =  [
+SPAM_TEMPLATE = [
     "━━━━━━━━ 💗᪲᪲᪲࣪ ִֶָ☾.ᯓᡣ𐭩🤍ྀི    ✝ 𝐀ɴᴛᴀ𝐑 𝐌ᴀɴ𝐓ᴀʀ 𝐒ʜ𝐀ɪ𝐓ᴀɴ𝐈 𝐊ʜᴏ𝐏ᴀ𝐃𝐀 {hater} 𝐆ᴀ𝐑ɪ𝐁 𝐊ɪ 𝐀ᴍᴍ𝐈 𝐊ᴀ 𝐊ᴀ𝐋𝐀 𝐁ʜᴏs𝐃ᴀ  ━━━━━━━━",
-    "🦅 𝐌αᴛᴋҽ 𝐌ҽ 𝐍ʜι 𝐓ʜα 𝐏αɳι 💦 {target} 🕷   𝐊ι 𝐌αα -- 𝐁αнαη 𝐑αη∂ιуσ 𝐊ι 𝐑αηι 🧊❤️‍🔥🥵👈🏻______________"
+    "🦅 𝐌αᴛᴋҽ 𝐌ҽ 𝐍ʜι 𝐓ʜα 𝐏αɳι 💦 {target} 🕷   𝐊ι 𝐌αα -- 𝐁α𝐡αη 𝐑αη∂ᵢуσ 𝐊ι 𝐑αηι 🧊❤️‍🔥🥵👈🏻______________"
 ]
 
 SUDO_USERS = set(OWNER_IDS)
@@ -107,7 +78,6 @@ setmphoto_data = {}
 custom_layout = ""
 LAYOUT_FILE = "layout.json"
 WELCOME_FILE = "welcome.json"
-WELCOME_OWNER_NAME = "𝐃𝐀𝐑𝐊 👑"
 welcome_config = {"photo_id": "", "caption": ""}
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -135,29 +105,11 @@ def load_data():
     for uid in SUDO_USERS:
         if str(uid) not in sudo_usernames:
             sudo_usernames[str(uid)] = "User_" + str(uid)
-    
-    global custom_layout
-    if os.path.exists(LAYOUT_FILE):
-        try:
-            with open(LAYOUT_FILE, "r") as f:
-                custom_layout = json.load(f).get("layout", "")
-        except: pass
-
-    global welcome_config
-    if os.path.exists(WELCOME_FILE):
-        try:
-            with open(WELCOME_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                if isinstance(data, dict):
-                    welcome_config.update(data)
-        except Exception:
-            pass
 
 def save_sudo():
     with open(SUDO_FILE, "w") as f: json.dump(list(SUDO_USERS), f)
     with open("sudo_names.json", "w") as f: json.dump(sudo_usernames, f)
 
-# Slaves
 SLAVES_FILE = "slaves.json"
 slaves_list = []
 
@@ -177,25 +129,15 @@ def load_slaves():
         except:
             slaves_list = []
 
-def save_slaves():
-    with open(SLAVES_FILE, "w") as f:
-        json.dump(slaves_list, f)
-
 target_names = {}
 swipe_tasks = {} 
 gnc_cache = {}   
 
-GNC_PREFIXES = [
-    "🌈₊˚🎀⊹♡🌻✨",
-    "👑⋆˚࿔⚡︎𖤐🔥",
-    "☠⋆༒︎𖤐⛧⚚",
-]
-GNC_SUFFIXES = [
-    "  𝑻𝑬𝑹𝑰 𝑹À𝑵𝑫𝑰 𝑴À𝑨 𝑲𝑰 𝑪𝑯𝑼𝑫𝑨𝑰 𝑫𝑬𝑲𝑯 ›🇨🇽‹ ❤️TMKC",
-]
+GNC_PREFIXES = ["🌈₊˚🎀⊹♡🌻✨", "👑⋆˚࿔⚡︎𖤐🔥", "☠⋆༒︎𖤐⛧⚚"]
+GNC_SUFFIXES = ["  𝑻𝑬𝑹𝑰 𝑹À𝑵𝑫𝑰 𝑴À𝑨 𝑲𝑰 𝑪𝑯𝑼𝑫𝑨𝑰 𝑫𝑬𝑲𝑯 ›🇨🇽‹ ❤️TMKC"]
 GNC_STYLES = {
     "darkncx":   (1,  0,  "👑 Dᴀʀᴋɴᴄx 𝐍ᴄ"),
-    "aesthetic": (1,  0,  "✨ Aᴇꜱᴛʜᴇᴛɪᴄ 𝐍ᴄ"),
+    "aesthetic": (1,  0,  "✨ Aᴇꜱᴛʜ𝒆ᴛɪc 𝐍ᴄ"),
     "dark":      (2,  0,  "☠️ Dᴀʀᴋ 𝐍ᴄ"),
     "cute":      (0,  0,  "🌈 Cᴜᴛᴇ 𝐍ᴄ"),
     "neon":      (1,  0,  "⚡ Nᴇᴏɴ 𝐍ᴄ"),
@@ -227,8 +169,6 @@ dreact_mode = {}
 group_tasks = {}
 spam_tasks = {}
 pfp_tasks = {}
-slide_targets = set()
-slidespam_targets = set()
 
 GAMEOVER_FILE = "gameover_videos.json"
 gameover_videos = {}  
@@ -243,10 +183,6 @@ def load_gameover_videos():
                     gameover_videos = data
         except Exception:
             gameover_videos = {}
-
-def save_gameover_videos():
-    with open(GAMEOVER_FILE, "w", encoding="utf-8") as f:
-        json.dump(gameover_videos, f, ensure_ascii=False, indent=2)
 
 def only_sudo(func):
     async def wrapper(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -266,7 +202,8 @@ async def addgameover_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return await update.message.reply_text("⚠️ 𝐑𝐞𝐩𝐥𝐲 𝐦𝐮𝐬𝐭 𝐛𝐞 𝐚 𝐕𝐈𝐃𝐄𝐎!")
     bot_id = str(context.bot.id)
     gameover_videos[bot_id] = replied.video.file_id
-    save_gameover_videos()
+    with open(GAMEOVER_FILE, "w", encoding="utf-8") as f:
+        json.dump(gameover_videos, f, ensure_ascii=False, indent=2)
     await update.message.reply_text("✅ 𝐆𝐀𝐌𝐄 𝐎𝐕𝐄𝐑 𝐕𝐈𝐃𝐄𝐎 𝐒𝐀𝐕𝐄𝐃!")
 
 @only_sudo
@@ -397,7 +334,6 @@ async def start_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 @only_sudo
 async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
-   async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     help_text = """╔══════════════════════════════════╗
 ║        🔥 𝐃𝐀𝐑𝐊  •  🐱 🔥         ║
 ║        ✨ 𝐃𝐀𝐑𝐊 𝐁𝐎𝐓 𝐕𝟐.𝟎 ✨         ║
@@ -889,11 +825,9 @@ async def gnc_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await query.answer("✅ Updated")
 
 async def ping_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Custom /ping command response"""
     await update.message.reply_text("I'M ON MAN WHAT YOU NEED ?")
 
 async def pingms_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """New /pingms command to check exact latency in milliseconds"""
     start_time = time.time()
     msg = await update.message.reply_text("Calculating latency...")
     latency_ms = round((time.time() - start_time) * 1000, 2)
@@ -951,7 +885,6 @@ async def clear_host_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def build_app(token, is_leader=False):
     app = Application.builder().token(token).build()
     
-    # Leader bot gets all command handlers, slave bots only handle background events
     handlers = [
         CommandHandler("start", start_cmd), CommandHandler("help", help_cmd),
         CommandHandler("ping", ping_command), CommandHandler("pingms", pingms_command),
@@ -998,7 +931,6 @@ def build_app(token, is_leader=False):
         for h in handlers:
             app.add_handler(h)
     else:
-        # Slave bots only process background auto-replies / reactions
         app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, auto_replies))
 
     return app
@@ -1015,7 +947,7 @@ async def run_bots():
     print("🔄 Initializing bots...", flush=True)
     apps = []
     for i, t in enumerate(TOKENS):
-        is_leader = (i == 0) # Only first bot is leader
+        is_leader = (i == 0)
         apps.append((build_app(t, is_leader=is_leader), t, is_leader))
 
     async def start_single_bot(app, token, is_leader):
@@ -1030,7 +962,6 @@ async def run_bots():
         except Exception as e:
             print(f"❌ Failed to start bot: {e}", flush=True)
 
-    # Run all bots concurrently using asyncio.gather
     await asyncio.gather(*(start_single_bot(app, t, leader) for app, t, leader in apps))
 
     print("🚀 ALL BOTS RUNNING WITH LEADER CONFIG!", flush=True)
