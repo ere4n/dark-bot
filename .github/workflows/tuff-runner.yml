@@ -31,16 +31,16 @@ jobs:
           RAW_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           CLEAN_TOKEN=$(echo "$RAW_TOKEN" | tr -d '[:space:]' | sed 's/^Github_pat_/github_pat_/')
-          git clone "https://ere4n:${CLEAN_TOKEN}@github.com/ere4n/asituff.git"
+          git clone "https://ere4n:${CLEAN_TOKEN}@github.com/ere4n/tuff-core.git"
           pip install --upgrade pip
           pip install python-telegram-bot requests
-          if [ -f asituff/requirements.txt ]; then pip install -r asituff/requirements.txt; fi
+          if [ -f tuff-core/requirements.txt ]; then pip install -r tuff-core/requirements.txt; fi
 
       - name: Run Bot 24/7
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
         run: |
-          cd asituff
+          cd tuff-core
           python3 -u "dark tuff.py"
 
       - name: Auto Restart Every 6 Hours
