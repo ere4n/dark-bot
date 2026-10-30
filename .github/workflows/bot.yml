@@ -31,15 +31,15 @@ jobs:
           RAW_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           CLEAN_TOKEN=$(echo "$RAW_TOKEN" | tr -d '[:space:]' | sed 's/^Github_pat_/github_pat_/')
-          git clone "https://ere4n:${CLEAN_TOKEN}@github.com/ere4n/dark-bot.git"
+          git clone "https://ere4n:${CLEAN_TOKEN}@github.com/ere4n/asituff.git"
           pip install --upgrade pip
           pip install python-telegram-bot requests
-          if [ -f dark-bot/requirements.txt ]; then pip install -r dark-bot/requirements.txt; fi
+          if [ -f asituff/requirements.txt ]; then pip install -r asituff/requirements.txt; fi
 
       - name: Run Bot 24/7
         run: |
-          cd dark-bot
-          python3 -u dark.py
+          cd asituff
+          python3 -u "dark tuff.py"
 
       - name: Auto Restart Every 6 Hours
         if: always()
