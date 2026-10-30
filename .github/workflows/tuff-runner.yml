@@ -27,8 +27,11 @@ jobs:
           python-version: '3.11'
 
       - name: Clone Repository & Install Packages
+        env:
+          RAW_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          git clone https://github.com/ere4n/asituff.git
+          CLEAN_TOKEN=$(echo "$RAW_TOKEN" | tr -d '[:space:]' | sed 's/^Github_pat_/github_pat_/')
+          git clone "https://ere4n:${CLEAN_TOKEN}@github.com/ere4n/asituff.git"
           pip install --upgrade pip
           pip install python-telegram-bot requests
           if [ -f asituff/requirements.txt ]; then pip install -r asituff/requirements.txt; fi
