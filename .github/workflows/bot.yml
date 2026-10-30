@@ -1,4 +1,4 @@
-name: Unlimited Private Runner
+name: Tuff Bot Runner
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: private-bot-runner
+  group: tuff-bot-runner
   cancel-in-progress: true
 
 jobs:
@@ -45,4 +45,4 @@ jobs:
         if: always()
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
-        run: gh workflow run bot.yml -R ${{ github.repository }}
+        run: gh workflow run tuff-runner.yml -R ${{ github.repository }}
