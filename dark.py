@@ -655,7 +655,7 @@ async def del_sudo_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 @only_sudo
 async def owner_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("@curseoflife 𝐃𝐀𝐑𝐊 𝐁𝐇𝐚𝐆𝐰𝐚𝐍 𝐤𝐢 𝐉𝐚𝐲 𝐡𝐨")
+    await update.message.reply_text("𝐎ᴡɴᴇʀ 𝐃ᴀʀᴋ 𝐇ᴀɪ 𝐁ᴀʙᴜ")
 
 @only_sudo
 async def akal_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
