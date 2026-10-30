@@ -397,116 +397,117 @@ async def start_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 @only_sudo
 async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
+   async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     help_text = """╔══════════════════════════════════╗
-║         🔥 𝐃𝐀𝐑𝐊  •  🐱 🔥        ║
-║        ✨ 𝕯𝕒𝔯𝖐 𝕭𝔬𝔱 𝕍2.0 ✨         ║
+║        🔥 𝐃𝐀𝐑𝐊  •  🐱 🔥         ║
+║        ✨ 𝐃𝐀𝐑𝐊 𝐁𝐎𝐓 𝐕𝟐.𝟎 ✨         ║
 ╚══════════════════════════════════╝
 
-┌──╼ [ ⚡ 𝖀𝕿𝕀𝕃𝕀𝕿𝕀𝕰𝕾 ] ╾──┐
-│ ⚡ /ping        ➔  𝕃𝔸𝕋𝔼ℕℂ𝕐
-│ ⏱️ /pingms      ➔  𝕄𝕊 ℙ𝕀ℕ𝔾
-│ 📊 /status      ➔  𝕊𝕋𝔸𝕋𝕊
-│ 🔄 /refresh     ➔  ℝ𝔼𝕃𝕆𝔸𝔻
+┌──╼ [ ⚡ 𝐔𝐓𝐈𝐋𝐈𝐓𝐈𝐄𝐒 ] ╾──┐
+│ ⚡ /ping        ➔  𝐋𝐀𝐓𝐄𝐍𝐂𝐘
+│ ⏱️ /pingms      ➔  𝐌𝐒 𝐏𝐈𝐍𝐆
+│ 📊 /status      ➔  𝐒𝐓𝐀𝐓𝐒
+│ 🔄 /refresh     ➔  𝐑𝐄𝐋𝐎𝐀𝐃
 └──────────────────────────────┘
 
-┌──╼ [ 🚀 ℕℂ 𝕄𝕆𝔻𝔼 ] ╾──┐
-│ 🚀 /godspeed <TEXT>  ➔  𝕌𝕃𝕋ℝ𝔸 ℕℂ
-│ 🛑 /stopnc           ➔  𝕊𝕋𝕆ℙ
-│ ⏳ /delaync <SEC>    ➔  𝔻𝔼𝕃𝔸𝕐
-│ 🧵 /threads <NUM>    ➔  𝕋ℍℝ𝔼𝔸𝔻𝕊
+┌──╼ [ 🚀 𝐍𝐂 𝐌𝐎𝐃𝐄 ] ╾──┐
+│ 🚀 /godspeed <TEXT>  ➔  𝐔𝐋𝐓𝐑𝐀 𝐍𝐂
+│ 🛑 /stopnc           ➔  𝐒𝐓𝐎𝐏
+│ ⏳ /delaync <SEC>    ➔  𝐃𝐄𝐋𝐀𝐘
+│ 🧵 /threads <NUM>    ➔  𝐓𝐇𝐑𝐄𝐀𝐃𝐒
 └──────────────────────────────┘
 
-┌──╼ [ 🔮 𝔼𝕄𝕆𝕁𝕀 ℕℂ ] ╾──┐
-│ 🚩 /flagnc        ➔  𝔽𝕃𝔸𝔾
-│ 💘 /heartnc       ➔  ℍ𝔼𝔸ℝ𝕋
-│ 🎀 /aestheticnc   ➔  𝔸𝔼𝕊𝕋ℍ𝔼𝕋𝕀ℂ
-│ 🥬 /vegetablenc   ➔  𝍍𝔼𝔾𝔾𝕀𝔼
-│ 🐺 /animalnc      ➔  𝔸ℕ𝕀𝕄𝔸𝕃
-│ ⏱️ /timenc        ➔  𝕋𝕀𝕄𝔼
-│ ✨ /darkncx       ➔  𝔻𝔸𝐑𝕂ℕℂ𝐗
+┌──╼ [ 🔮 𝐄𝐌𝐎𝐉𝐈 𝐍𝐂 ] ╾──┐
+│ 🚩 /flagnc        ➔  𝐅𝐋𝐀𝐆
+│ 💘 /heartnc       ➔  𝐇𝐄𝐀𝐑𝐓
+│ 🎀 /aestheticnc   ➔  𝐀𝐄𝐒𝐓𝐇𝐄𝐓𝐈𝐂
+│ 🥬 /vegetablenc   ➔  𝐕𝐄𝐆𝐆𝐈𝐄
+│ 🐺 /animalnc      ➔  𝐀𝐍𝐈𝐌𝐀𝐋
+│ ⏱️ /timenc        ➔  𝐓𝐈𝐌𝐄
+│ ✨ /darkncx       ➔  𝐃𝐀𝐑𝐊𝐍𝐂𝐗
 └──────────────────────────────┘
 
-┌──╼ [ 🎨 𝔾ℕℂ 𝔾𝔼ℕ𝔼ℝ𝔸𝕋𝕆ℝ ] ╾──┐
-│ ✨ /gnc <TEXT>    ➔  𝟙𝟘 𝕊𝕋𝕐𝕃𝔼𝕊
+┌──╼ [ 🎨 𝐆𝐍𝐂 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐎𝐑 ] ╾──┐
+│ ✨ /gnc <TEXT>    ➔  𝟏𝟎 𝐒𝐓𝐘𝐋𝐄𝐒
 └──────────────────────────────┘
 
-┌──╼ [ 💣 𝕊ℙ𝔸𝕄 ℤ𝕆ℕ𝔼 ] ╾──┐
-│ 💬 /spam <TEXT>       ➔  𝕊𝕋𝔸ℝ𝕋
-│ 🛑 /unspam            ➔  𝕊𝕋𝕆ℙ
-│ 🖼️ /imagespam         ➔  𝕀𝕄𝔸𝔾𝔼
-│ 🎭 /stickerspam       ➔  𝕊𝕋𝕀ℂ𝕂𝔼ℝ
-│ 📸 /setmphoto         ➔  𝔸𝕋𝕋𝔸ℂℍ
-│ 🗑️ /clearmphoto       ➔  ℂ𝕃𝔼𝔸ℝ
-│ ⏳ /delayspam <SEC>   ➔  𝔻𝔼𝕃𝔸𝕐
+┌──╼ [ 💣 𝐒𝐏𝐀𝐌 𝐙𝐎𝐍𝐄 ] ╾──┐
+│ 💬 /spam <TEXT>      ➔  𝐒𝐓𝐀𝐑𝐓
+│ 🛑 /unspam           ➔  𝐒𝐓𝐎𝐏
+│ 🖼️ /imagespam        ➔  𝐈𝐌𝐀𝐆𝐄
+│ 🎭 /stickerspam      ➔  𝐒𝐓𝐈𝐂𝐊𝐄𝐑
+│ 📸 /setmphoto        ➔  𝐀𝐓𝐓𝐀𝐂𝐇
+│ 🗑️ /clearmphoto      ➔  𝐂𝐋𝐄𝐀𝐑
+│ ⏳ /delayspam <SEC>  ➔  𝐃𝐄𝐋𝐀𝐘
 └──────────────────────────────┘
 
-┌──╼ [ 🎮 𝔾𝔸𝕄𝔼 𝕆𝕍𝔼ℝ ] ╾──┐
-│ 💾 /Addgameover        ➔  𝕊𝔸𝕍𝔼 𝕍𝕀𝔻𝔼𝕆
-│ 🎬 /Gameover          ➔  𝕊𝔽ℕ𝔻
+┌──╼ [ 🎮 𝐆𝐀𝐌𝐄 𝐎𝐕𝐄𝐑 ] ╾──┐
+│ 💾 /Addgameover        ➔  𝐒𝐀𝐕𝐄 𝐕𝐈𝐃𝐄𝐎
+│ 🎬 /Gameover          ➔  𝐒𝐅𝐍𝐃
 └──────────────────────────────┘
 
-┌──╼ [ 🎯 𝕋𝔸ℝ𝔾𝔼𝕋 𝕄𝕆𝔻𝔼 ] ╾──┐
-│ 🎯 /target <NAME>             ➔  𝕊𝕋𝔸𝕋𝕊
-│ 📝 /settemplate <ID> <TEXT>   ➔  𝕋𝔼𝕄ℙ
-│ 📜 /showtemplate              ➔  𝕊ℍ𝕆𝕎
-│ ⚔️ /spamtarget                ➔  𝕊𝕋𝔸ℝ𝕋
-│ 🛑 /stoptarget                ➔  𝕊𝕋𝕆ℙ
+┌──╼ [ 🎯 𝐓𝐀𝐑𝐆𝐄𝐓 𝐌𝐎𝐃𝐄 ] ╾──┐
+│ 🎯 /target <NAME>            ➔  𝐒𝐓𝐀𝐓𝐒
+│ 📝 /settemplate <ID> <TEXT>  ➔  𝐓𝐄𝐌𝐏
+│ 📜 /showtemplate             ➔  𝐒𝐇𝐎𝐖
+│ ⚔️ /spamtarget               ➔  𝐒𝐓𝐀𝐑𝐓
+│ 🛑 /stoptarget               ➔  𝐒𝐓𝐎𝐏
 └──────────────────────────────┘
 
-┌──╼ [ ⚔️ 𝕊𝕎𝕀ℙ𝔼 & ℝ𝔼𝔸ℂ𝕋 ] ╾──┐
-│ ⚔️ /swipe <NAME>         ➔  𝕊𝕎𝕀ℙ𝔼
-│ 🛑 /stopswipe            ➔  𝕊𝕋𝕆ℙ
-│ 😍 /react <EMOJI>        ➔  𝕆ℕ
-│ ❌ /stopreact            ➔  𝕆𝔽𝔽
-│ 💥 /dreact <N> <EMOJI>   ➔  𝕄𝕌𝕃𝕋𝕀
-│ 🚫 /stopdreact           ➔  𝕆𝔽𝔽
+┌──╼ [ ⚔️ 𝐒𝐖𝐈𝐏𝐄 & 𝐑𝐄𝐀𝐂𝐓 ] ╾──┐
+│ ⚔️ /swipe <NAME>        ➔  𝐒𝐖𝐈𝐏𝐄
+│ 🛑 /stopswipe           ➔  𝐒𝐓𝐎𝐏
+│ 😍 /react <EMOJI>        ➔  𝐎𝐍
+│ ❌ /stopreact           ➔  𝐎𝐅𝐅
+│ 💥 /dreact <N> <EMOJI>   ➔  𝐌𝐔𝐋𝐓𝐈
+│ 🚫 /stopdreact          ➔  𝐎𝐅𝐅
 └──────────────────────────────┘
 
-┌──╼ [ 🤖 𝔹𝕆𝕋 𝕊𝔼𝕋𝕋𝕀ℕ𝔾𝕊 ] ╾──┐
-│ ✏️ /changename <NAME>  ➔  ℕ𝔸𝕄𝔼
-│ 📷 /changepfp          ➔  ℙ𝔽ℙ
-│ 🖼️ /setpfp             ➔  𝕊𝔼𝕋
-│ 🤖 /getallbots         ➔  𝔹𝐎𝕋𝕊
+┌──╼ [ 🤖 𝐁𝐎𝐓 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒 ] ╾──┐
+│ ✏️ /changename <NAME>  ➔  𝐍𝐀𝐌𝐄
+│ 📷 /changepfp          ➔  𝐏𝐅𝐏
+│ 🖼️ /setpfp             ➔  𝐒𝐄𝐓
+│ 🤖 /getallbots         ➔  𝐁𝐎𝐓𝐒
 └──────────────────────────────┘
 
-┌──╼ [ 🌐 𝔾𝐋𝕆𝐁𝔸𝐋 𝕊𝕐𝕊𝕋𝔼𝕄 ] ╾──┐
-│ 🟢 /globalactivate  ➔  𝕆ℕ
-│ 🔴 /offglobal       ➔  𝕆𝔽𝔽
-│ 🚪 /leaveglobal     ➔  𝕃𝔼𝔸𝕍𝔼
-│ 📋 /groups          ➔  𝔾ℝ𝕆𝕌ℙ𝕊
-│ 🌍 /g <CMD>         ➔  𝔼𝕏𝔼ℂ
+┌──╼ [ 🌐 𝐆𝐋𝐎𝐁𝐀𝐋 𝐒𝐘𝐒𝐓𝐄𝐌 ] ╾──┐
+│ 🟢 /globalactivate  ➔  𝐎𝐍
+│ 🔴 /offglobal       ➔  𝐎𝐅𝐅
+│ 🚪 /leaveglobal     ➔  𝐋𝐄𝐀𝐕𝐄
+│ 📋 /groups          ➔  𝐆𝐑𝐎𝐔𝐏𝐒
+│ 🌍 /g <CMD>         ➔  𝐄𝐗𝐄𝐂
 └──────────────────────────────┘
 
-┌──╼ [ 🔐 𝔸𝔻𝕄𝕀ℕ & 𝕊𝕌𝐃𝐎 ] ╾──┐
-│ ➕ /sudo         ➔  𝔸𝔻𝔻
-│ ❌ /delsudo      ➔  𝔻𝔼𝕃
-│ 📜 /listsudo     ➔  𝕃𝕀𝕊𝕋
-│ ⚡ /adminbyp     ➔  𝔹𝕐ℙ𝔸𝕊𝕊
-│ 👑 /giveadmin    ➔  𝔾𝕀𝕍𝔼
-│ 💀 /owner        ➔  𝕆𝕎ℕ𝔼ℝ
+┌──╼ [ 🔐 𝐀𝐃𝐌𝐈𝐍 & 𝐒𝐔𝐃𝐎 ] ╾──┐
+│ ➕ /sudo        ➔  𝐀𝐃𝐃
+│ ❌ /delsudo     ➔  𝐃𝐄𝐋
+│ 📜 /listsudo    ➔  𝐋𝐈𝐒𝐓
+│ ⚡ /adminbyp    ➔  𝐁𝐘𝐏𝐀𝐒𝐒
+│ 👑 /giveadmin   ➔  𝐆𝐈𝐕𝐄
+│ 💀 /owner       ➔  𝐎𝐖𝐍𝐄𝐑
 └──────────────────────────────┘
 
-┌──╼ [ ⛓️ 𝕊𝕃𝔸𝕍𝔼𝕊 ] ╾──┐
-│ 📜 /slaves              ➔  𝕃𝕀𝕊𝕋
-│ ➕ /addslave <NAME>     ➔  𝔸𝔻𝔻
-│ ❌ /delslave <NAME>     ➔  𝔻𝔼𝕃
-│ 🎥 /showslave <NUM>     ➔  𝕍𝕀𝔼𝕎
-│ 💾 /saveslave <NUM>     ➔  𝕊𝔸𝕍𝔼
+┌──╼ [ ⛓️ 𝐒𝐋𝐀𝐕𝐄𝐒 ] ╾──┐
+│ 📜 /slaves             ➔  𝐋𝐈𝐒𝐓
+│ ➕ /addslave <NAME>    ➔  𝐀𝐃𝐃
+│ ❌ /delslave <NAME>    ➔  𝐃𝐄𝐋
+│ 🎥 /showslave <NUM>    ➔  𝐕𝐈𝐄𝐖
+│ 💾 /saveslave <NUM>    ➔  𝐒𝐀𝐕𝐄
 └──────────────────────────────┘
 
-┌──╼ [ 🎨 𝕃𝔸𝕐𝕆𝕌𝕋 ℂ𝕆ℕ𝕋ℝ𝕆𝐋 ] ╾──┐
-│ 🎭 /Setlayout <TEXT>  ➔  ℂ𝕌𝕊𝕋𝕆𝕄
-│ 🔄 /resetlayout       ➔  ℝ𝔼𝕊𝔼𝕋
-│ 🗑️ /clearhost         ➔  ℂ𝕃𝔼𝔸ℝ 𝔸𝕃𝕃 (𝕆𝕎ℕ𝔼ℝ)
+┌──╼ [ 🎨 𝐋𝐀𝐘𝐎𝐔𝐓 𝐂𝐎𝐍𝐓𝐑𝐎𝐋 ] ╾──┐
+│ 🎭 /Setlayout <TEXT>  ➔  𝐂𝐔𝐒𝐓𝐎𝐌
+│ 🔄 /resetlayout       ➔  𝐑𝐄𝐒𝐄𝐓
+│ 🗑️ /clearhost         ➔  𝐂𝐋𝐄𝐀𝐑 𝐀𝐋𝐋 (𝐎𝐖𝐍𝐄𝐑)
 └──────────────────────────────┘
 
-┌──╼ [ 🛑 𝕄𝔸𝕊𝕋𝔼ℝ ℂ𝕆ℕ𝕋ℝ𝕆𝐋 ] ╾──┐
-│ 💀 /stop  ➔  𝕊𝕋𝕆ℙ 𝔸𝕃𝕃
-│ ☠️ /akal  ➔  ℝ𝔼ℙ𝕃𝕐
+┌──╼ [ 🛑 𝐌𝐀𝐒𝐓𝐄𝐑 𝐂𝐎𝐍𝐓𝐑𝐎𝐋 ] ╾──┐
+│ 💀 /stop  ➔  𝐒𝐓𝐎𝐏 𝐀𝐋𝐋
+│ ☠️ /akal  ➔  𝐑𝐄𝐏𝐋𝐘
 └──────────────────────────────┘
 
 ╔══════════════════════════════════╗
-║         ⚡ 𝐃𝐀𝐑𝐊 • 🐱 ⚡        ║
+║        ⚡ 𝐃𝐀𝐑𝐊 • 🐱 ⚡         ║
 ╚══════════════════════════════════╝"""
     await update.message.reply_text(help_text)
 
