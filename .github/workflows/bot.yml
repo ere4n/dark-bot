@@ -1,0 +1,48 @@
+name: Unlimited Private Runner
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: private-bot-runner
+  cancel-in-progress: true
+
+jobs:
+  run-private-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - name: Checkout Runner
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Clone Private Repo & Install Packages
+        env:
+          RAW_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          CLEAN_TOKEN=$(echo "$RAW_TOKEN" | tr -d '[:space:]' | sed 's/^Github_pat_/github_pat_/')
+          git clone "https://ere4n:${CLEAN_TOKEN}@github.com/ere4n/dark-bot.git"
+          pip install --upgrade pip
+          pip install python-telegram-bot requests
+          if [ -f dark-bot/requirements.txt ]; then pip install -r dark-bot/requirements.txt; fi
+
+      - name: Run Bot 24/7
+        run: |
+          cd dark-bot
+          python3 -u dark.py
+
+      - name: Auto Restart Every 6 Hours
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: gh workflow run bot.yml -R ${{ github.repository }}
